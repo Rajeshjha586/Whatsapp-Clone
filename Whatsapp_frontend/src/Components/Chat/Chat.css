@@ -1,0 +1,119 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+}
+
+.chat-room-name{
+    margin: 0px;
+}
+.chat-room-last-seen{
+    margin: 0;
+}
+
+.chat__header{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.chat__headerInfo{
+    flex: 1;
+    padding-left: 20px;
+}
+.chat__headerInfo > h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.chat__headerInfo > p {
+    font-size: 12px;
+    color:gray;
+}
+
+.chat__headerRight{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+
+.chat__body{
+    flex: 1;
+    background-image: url('https://user-images.githubusercontent.com/70096180/105627562-acdbfd80-5e5d-11eb-9d54-3423cdce0ea0.png');
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow-y:scroll;
+}
+
+.chat__name{
+    position: absolute;
+    top:-15px;
+    font-weight: 600;
+    font-size: xx-small;
+    color: grey;
+    margin-bottom: 14px;
+}
+
+.chat__timestamp{
+    margin-left: 10px;
+    font-size: xx-small;
+    color: grey;
+}
+
+.chat__message{
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    width: fit-content;
+    max-width: 400px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.chat__reciever{
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+
+.chat__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    border: 1px solid lightgray;
+}
+
+.chat__footer > form{
+    flex: 1;
+    display: flex;
+}
+
+.chat__footer > form > input{
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px 14px;
+    border: none;
+    margin: 0 10px 0px 10px;
+    outline-width: 0;
+}
+
+
+.chat__footer > .MuiSvgIcon-root{
+    color: gray;
+    padding: 10px;
+}
+
+button{
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+button > .MuiSvgIcon-root{
+    color: gray;
+    cursor: pointer;
+}
